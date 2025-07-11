@@ -31,6 +31,17 @@
      font-size: 16px;
      font-weight: bold;
 }
+.btn-primary2{
+     background-color: #4E47FF;
+     width: 229px;
+     height: 48px;
+     gap: 10px;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     font-weight: bold;
+}
 header{
      background-image: url("./Assets/Hero-bg.png");
      min-width:  1440px;
@@ -62,4 +73,64 @@ header{
      font-size: 65px;
      font-weight: bold;
      margin-bottom: 37px;
+}
+.banner-section{
+     /* border: 2px solid tomato; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 1140px;
+     height: 328px;
+     margin: 200px ;
+     gap: 203px;
+}
+.banner-title{
+     font-size: 35px;
+     font-weight: bold;
+}
+.banner-descripiton{
+     font-size: 24px;
+     margin:  23px 0px;
+     color: #252432;
+}
+.banner-img{
+     width: 403px;
+     height: 328px;
+     
+}
+.banner-img img{
+     border-radius: 10%;
+}
+.user-section{
+     border: 2px solid #E6E5FF;
+     background-color: #E6E5FF;
+     box-sizing: border-box;
+     border-radius: 15px;
+     width: 1140px;
+     height: 306px;
+     margin: 0px auto;
+}
+.user-title{
+     font-size: 36px;
+     text-align: center;
+     margin-top: 50px;
+     color: #252432;
+}
+.user-container{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 40px ;
+    margin-bottom: 50px;
+}
+.user-container h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+   
+    
+}
+.user-container p{
+    font-size: 20px;
+    color:#000000 ;
+    
 }
