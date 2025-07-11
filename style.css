@@ -42,6 +42,18 @@
      font-size: 16px;
      font-weight: bold;
 }
+.btn-primary3{
+     background-color: #4E47FF;
+     width: 195px;
+     height: 48px;
+     gap: 10px;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     font-weight: bold;
+     margin-bottom: 20px;
+}
 header{
      background-image: url("./Assets/Hero-bg.png");
      min-width:  1440px;
@@ -81,8 +93,10 @@ header{
      align-items: center;
      width: 1140px;
      height: 328px;
-     margin: 200px ;
+     margin: 0 auto ;
      gap: 203px;
+     margin-top: 150px;
+     margin-bottom: 150px;
 }
 .banner-title{
      font-size: 35px;
@@ -133,4 +147,76 @@ header{
     font-size: 20px;
     color:#000000 ;
     
+}
+.section-container{
+     /* border: 2px solid tomato; */
+     width: 1140px;
+     height: 342px;
+     margin: 0px auto;
+     margin-top: 150px;
+}
+.section-container h1{
+     font-size: 42px;
+     font-weight: bold;
+     color: #252432;
+     text-align: center;
+     margin-bottom: 50px;
+}
+.section-container h3{
+     font-size: 24px;
+     margin-bottom: 10px;
+}
+.star-icon{
+     font-size: 24px;
+     color: rgb(202, 190, 15);
+     margin-bottom: 24px
+}
+.card-section{
+     margin-right: 20px;
+     border-radius: 10px;
+     padding: 24px;
+     width: 300px;
+     height: 200px;
+     background-color: #d3d1d180;
+}
+.profile-container{
+     
+     margin-top: 24px;
+     display: flex;
+     gap: 10px;
+}
+.profile img{
+     border-radius: 50%;
+}
+.all-card{
+     display: flex;
+     justify-content: space-around;
+}
+
+.banner-container{
+     /* border: 2px solid green; */
+     width: 1140px;
+     height: 696.77px;
+     margin: 0 auto;
+     margin-top: 150px;
+     padding: 70px 150px;
+     text-align: center;
+}
+.banner-container h1{
+
+     font-size: 50px;
+     font-weight: bold;
+     text-align: center;
+}
+.banner-container p{
+     color: #00000080;
+     font-size: 16px;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.banner-container img{
+     width: 100%;
+     border-radius: 50px;
 }
