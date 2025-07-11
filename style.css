@@ -1,15 +1,23 @@
-*{
+* {
+     /* background-color: #D6DDED; */
      margin: 0;
      padding: 0;
 }
-.raleway {
-  font-family: "Raleway";
+
+main {
+     background-color: #edeef1;
 }
+
+.raleway {
+     font-family: "Raleway";
+}
+
 .inter {
-  font-family: "Inter";
+     font-family: "Inter";
 
 }
-.btn-primary{
+
+.btn-primary {
      background-color: #4E47FF;
      width: 132px;
      height: 48px;
@@ -20,7 +28,8 @@
      font-size: 16px;
      font-weight: bold;
 }
-.btn-primary1{
+
+.btn-primary1 {
      background-color: #4E47FF;
      width: 174px;
      height: 48px;
@@ -31,7 +40,8 @@
      font-size: 16px;
      font-weight: bold;
 }
-.btn-primary2{
+
+.btn-primary2 {
      background-color: #4E47FF;
      width: 229px;
      height: 48px;
@@ -42,7 +52,8 @@
      font-size: 16px;
      font-weight: bold;
 }
-.btn-primary3{
+
+.btn-primary3 {
      background-color: #4E47FF;
      width: 195px;
      height: 48px;
@@ -54,25 +65,43 @@
      font-weight: bold;
      margin-bottom: 20px;
 }
-header{
-     background-image: url("./Assets/Hero-bg.png");
-     min-width:  1440px;
-     min-height: 698px;
+
+.btn-primary4 {
+     width: 100%;
+     height: 62px;
+     background-color: #4E47FF;
+     gap: 10px;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     font-weight: bold;
+     margin-bottom: 20px;
 }
-.nav-section{
+
+header {
+     background-image: url("./Assets/Hero-bg.png");
+     min-width: 1440px;
+     min-height: 698px;
+
+}
+
+.nav-section {
      display: flex;
      justify-content: space-between;
      align-items: center;
      width: 1140px;
-     height: 150px ;
+     height: 150px;
      margin: 0 auto;
 }
-.logo{
+
+.logo {
      text-transform: uppercase;
      font-size: 34px;
      color: #4E47FF;
 }
-.nav-container{
+
+.nav-container {
      width: 905px;
      height: 237px;
      margin: 0px auto;
@@ -81,41 +110,46 @@ header{
 
 }
 
-.nav-title{
+.nav-title {
      font-size: 65px;
      font-weight: bold;
      margin-bottom: 37px;
 }
-.banner-section{
+
+.banner-section {
      /* border: 2px solid tomato; */
      display: flex;
      justify-content: space-between;
      align-items: center;
      width: 1140px;
      height: 328px;
-     margin: 0 auto ;
-     gap: 203px;
-     margin-top: 150px;
+     margin: 0 auto;
      margin-bottom: 150px;
+     padding-top: 150px;
 }
-.banner-title{
+
+.banner-title {
      font-size: 35px;
      font-weight: bold;
 }
-.banner-descripiton{
+
+.banner-descripiton {
      font-size: 24px;
-     margin:  23px 0px;
+     margin: 23px 0px;
      color: #252432;
 }
-.banner-img{
+
+.banner-img {
      width: 403px;
      height: 328px;
-     
+
 }
-.banner-img img{
+
+.banner-img img {
      border-radius: 10%;
 }
-.user-section{
+
+.user-section {
      border: 2px solid #E6E5FF;
      background-color: #E6E5FF;
      box-sizing: border-box;
@@ -124,91 +158,106 @@ header{
      height: 306px;
      margin: 0px auto;
 }
-.user-title{
+
+.user-title {
      font-size: 36px;
      text-align: center;
      margin-top: 50px;
      color: #252432;
 }
-.user-container{
+
+.user-container {
      display: flex;
      justify-content: space-around;
-     margin-top: 40px ;
-    margin-bottom: 50px;
+     margin-top: 40px;
+     margin-bottom: 50px;
 }
-.user-container h1{
-    font-size: 80px;
-    font-weight: bold;
-    color: #4E47FF;
-   
-    
+
+.user-container h1 {
+     font-size: 80px;
+     font-weight: bold;
+     color: #4E47FF;
+
+
 }
-.user-container p{
-    font-size: 20px;
-    color:#000000 ;
-    
+
+.user-container p {
+     font-size: 20px;
+     color: #000000;
+
 }
-.section-container{
+
+.section-container {
      /* border: 2px solid tomato; */
      width: 1140px;
      height: 342px;
      margin: 0px auto;
      margin-top: 150px;
 }
-.section-container h1{
+
+.section-container h1 {
      font-size: 42px;
      font-weight: bold;
      color: #252432;
      text-align: center;
      margin-bottom: 50px;
 }
-.section-container h3{
+
+.section-container h3 {
      font-size: 24px;
      margin-bottom: 10px;
 }
-.star-icon{
+
+.star-icon {
      font-size: 24px;
-     color: rgb(202, 190, 15);
+     color: #FFB805;
      margin-bottom: 24px
 }
-.card-section{
+
+.card-section {
      margin-right: 20px;
      border-radius: 10px;
      padding: 24px;
      width: 300px;
      height: 200px;
-     background-color: #d3d1d180;
+     background-color: #FFFFFF80;
 }
-.profile-container{
-     
+
+.profile-container {
+
      margin-top: 24px;
      display: flex;
      gap: 10px;
 }
-.profile img{
+
+.profile img {
      border-radius: 50%;
 }
-.all-card{
+
+.all-card {
      display: flex;
      justify-content: space-around;
 }
 
-.banner-container{
-     /* border: 2px solid green; */
+.banner-container {
+     border: 2px solid white;
+     background-color: #ffff;
+     border-radius: 15px;
      width: 1140px;
      height: 696.77px;
      margin: 0 auto;
      margin-top: 150px;
-     padding: 70px 150px;
      text-align: center;
 }
-.banner-container h1{
 
+.banner-container h1 {
+     margin-top: 70px;
      font-size: 50px;
      font-weight: bold;
      text-align: center;
 }
-.banner-container p{
+
+.banner-container p {
      color: #00000080;
      font-size: 16px;
      font-weight: bold;
@@ -216,7 +265,60 @@ header{
      margin-top: 20px;
      margin-bottom: 20px;
 }
-.banner-container img{
-     width: 100%;
+
+.banner-container img {
+     width: 840px;
+     height: 365px;
      border-radius: 50px;
 }
+
+.form-section {
+     display: flex;
+     width: 1140px;
+     height: 632px;
+     margin: 0 auto;
+     padding: 70px 0px;
+     justify-content: center;
+     align-items: center;
+}
+
+.form-section h1 {
+     font-size: 97px;
+     font-weight: bold;
+     color: #000000;
+}
+
+.form {
+     display: flex;
+     display: block;
+     justify-content: space-around;
+
+}
+
+.form label {
+     font-size: 18px;
+     color: #000000;
+
+}
+
+.input {
+     font-size: 20px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     width: 497px;
+     height: 50px;
+     padding: 20px 32px;
+     border-radius: 10px;
+     border-color: #adaaaa80;
+}
+
+.textarea {
+     font-size: 20px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     width: 497px;
+     height: 135px;
+     padding: 20px 32px;
+     border-radius: 10px;
+}
+
