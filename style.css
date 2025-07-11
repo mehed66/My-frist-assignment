@@ -27,6 +27,29 @@ main {
      border-radius: 10px;
      font-size: 16px;
      font-weight: bold;
+     opacity: 0.6;
+     transition: 0.3s;
+}
+
+.btn-primary:hover {
+     opacity: 1;
+     background-color: #FFB805;
+}
+.btn-primary1:hover {
+     opacity: 1;
+     background-color: #FFB805;
+}
+.btn-primary2:hover {
+     opacity: 1;
+     background-color: #FFB805;
+}
+.btn-primary3:hover {
+     opacity: 1;
+     background-color: #FFB805;
+}
+.btn-primary4:hover {
+     opacity: 1;
+     background-color: #FFB805;
 }
 
 .btn-primary1 {
@@ -39,6 +62,8 @@ main {
      border-radius: 10px;
      font-size: 16px;
      font-weight: bold;
+     opacity: 0.6;
+     transition: 0.3s;
 }
 
 .btn-primary2 {
@@ -51,6 +76,8 @@ main {
      border-radius: 10px;
      font-size: 16px;
      font-weight: bold;
+     opacity: 0.6;
+     transition: 0.3s;
 }
 
 .btn-primary3 {
@@ -64,6 +91,8 @@ main {
      font-size: 16px;
      font-weight: bold;
      margin-bottom: 20px;
+     opacity: 0.6;
+     transition: 0.3s;
 }
 
 .btn-primary4 {
@@ -77,6 +106,8 @@ main {
      font-size: 16px;
      font-weight: bold;
      margin-bottom: 20px;
+     opacity: 0.6;
+     transition: 0.3s;
 }
 
 header {
@@ -149,7 +180,7 @@ header {
      border-radius: 10%;
 }
 
-.user-section {
+.action-section {
      border: 2px solid #E6E5FF;
      background-color: #E6E5FF;
      box-sizing: border-box;
@@ -159,21 +190,21 @@ header {
      margin: 0px auto;
 }
 
-.user-title {
+.action-title {
      font-size: 36px;
      text-align: center;
      margin-top: 50px;
      color: #252432;
 }
 
-.user-container {
+.action-container {
      display: flex;
      justify-content: space-around;
      margin-top: 40px;
      margin-bottom: 50px;
 }
 
-.user-container h1 {
+.action-container h1 {
      font-size: 80px;
      font-weight: bold;
      color: #4E47FF;
@@ -181,13 +212,13 @@ header {
 
 }
 
-.user-container p {
+.action-container p {
      font-size: 20px;
      color: #000000;
 
 }
 
-.section-container {
+.productive-users-section {
      /* border: 2px solid tomato; */
      width: 1140px;
      height: 342px;
@@ -195,7 +226,7 @@ header {
      margin-top: 150px;
 }
 
-.section-container h1 {
+.productive-users-section h1 {
      font-size: 42px;
      font-weight: bold;
      color: #252432;
@@ -203,7 +234,7 @@ header {
      margin-bottom: 50px;
 }
 
-.section-container h3 {
+.productive-users-section h3 {
      font-size: 24px;
      margin-bottom: 10px;
 }
@@ -324,30 +355,39 @@ header {
 
 footer {
      padding-top: 250px;
-     width: 100%; 
-     height: 430px;
+     width: 100%;
+     height: 400px;
 }
 
 .footer {
      width: 530px;
      height: 220px;
-     margin:0 auto;    
+     margin: 0 auto;
 }
-.footer-title{
+
+.footer-title {
      font-size: 100px;
      color: #4E47FF;
      text-transform: uppercase;
      text-align: center;
 }
-.footer P{
+
+.footer P {
      color: #8987A1;
      text-align: center;
 }
-.footer-ink ul{
+
+.footer-ink ul {
      margin-top: 20px;
      display: flex;
      list-style: none;
      justify-content: space-around;
+     color: #8987A1;
+     font-size: 24px;
+}
+
+.footer-ink ul a {
+     text-decoration: none;
      color: #8987A1;
      font-size: 24px;
 }
